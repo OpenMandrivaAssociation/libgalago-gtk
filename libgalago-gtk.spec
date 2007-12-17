@@ -12,7 +12,6 @@ Source0: http://www.galago-project.org/files/releases/source/libgalago-gtk/%{nam
 License: LGPL
 Group: System/Libraries
 Url: http://www.galago-project.org/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libgalago-devel >= 0.5.0
 BuildRequires: gtk+2-devel
 
