@@ -1,6 +1,6 @@
 %define name libgalago-gtk
 %define version 0.5.0
-%define release %mkrel 4
+%define release %mkrel 6
 %define major 1
 %define libname %mklibname galago-gtk %major
 
