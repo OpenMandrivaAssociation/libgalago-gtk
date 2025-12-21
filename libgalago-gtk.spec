@@ -13,6 +13,11 @@ License: LGPL
 Group: System/Libraries
 Url: https://www.galago-project.org/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libgalago-devel >= 0.5.0
 BuildRequires: gtk+2-devel
 
